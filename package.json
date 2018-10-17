@@ -1,0 +1,22 @@
+{
+  "name": "cucumber-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jane1002/cucumber-example.git"
+  },
+  "author": "Yang Fan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jane1002/cucumber-example/issues"
+  },
+  "homepage": "https://github.com/jane1002/cucumber-example#readme",
+  "devDependencies": {
+    "cucumber": "^5.0.2"
+  }
+}
