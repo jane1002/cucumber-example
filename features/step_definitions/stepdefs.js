@@ -1,5 +1,6 @@
 const assert = require('assert');
 const { Given, When, Then } = require('cucumber');
+var expect = require('chai').expect;
 
 function isItFriday(today) {
   if(today === 'Friday') {
@@ -19,4 +20,5 @@ When('I ask whether today it is Friday yet', function () {
 
 Then('I should be told {string}', function (expectedAnswer) {
   assert.equal(this.actualAnswer, expectedAnswer);
+  expect(true).to.be.true;
 });
